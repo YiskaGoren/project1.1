@@ -1,0 +1,316 @@
+{
+  "statusIG": [
+    {
+      "idI": 0,
+      "idG": 1
+    }
+  ],
+  "statusBC": [
+    {
+      "idB": 1,
+      "idC": 0
+    }
+  ],
+  "partys": [
+    {
+      "id": 901,
+      "IdBC": 3,
+      "name": "ערב גיבוש",
+      "place": "חזקיה שבתאי 13",
+      "numTackPart": 10,
+      "date": "09/02/18"
+    },
+    {
+      "id": 902,
+      "IdBC": 4,
+      "name": "בוקר חברותי",
+      "place": "שלום סיון 10",
+      "numTackPart": 30,
+      "date": "13/05/18"
+    },
+    {
+      "id": 903,
+      "IdBC": 4,
+      "name": "מסיבת פרישה",
+      "place": "הנרקיס 102",
+      "numTackPart": 20,
+      "date": "18/06/18"
+    }
+  ],
+  "guest1": [
+    {
+      "id": 1,
+      "geustId": 23546546,
+      "name": "שרה",
+      "mailAddress": "sari@gmail.com",
+      "Phone": "0527894561",
+      "partyId": 901
+    },
+    {
+      "id": 2,
+      "geustId": 235467546,
+      "name": "רחל",
+      "mailAddress": "  rachel@gmail.com",
+      "Phone": "0525252521",
+      "partyId": [
+        902
+      ]
+    },
+    {
+      "id": 3,
+      "geustId": 235456546,
+      "name": "יהודית",
+      "mailAddress": "yudithershler@gmail.com",
+      "Phone": "0504141534",
+      "partyId": [
+        905,
+        906
+      ]
+    },
+    {
+      "id": 4,
+      "geustId": 235464546,
+      "name": "יסכה",
+      "mailAddress": "yiska@gmail.com",
+      "Phone": "0583246182",
+      "partyId": 901
+    },
+    {
+      "id": 5,
+      "geustId": 235446546,
+      "name": "הדר",
+      "mailAddress": "hadar@gmail.com",
+      "Phone": "0506565658",
+      "partyId": [
+        903,
+        904
+      ]
+    }
+  ],
+  "inviter": [
+    {
+      "id": 1,
+      "inviterId": 200502559,
+      "name": "יעלי",
+      "mailAddress": "yael@gmail.com",
+      "Phone": "0521234567",
+      "partyId": [
+        905,
+        902
+      ]
+    },
+    {
+      "id": 2,
+      "inviterId": 200522359,
+      "name": "משה",
+      "mailAddress": "moshe@gmail.com",
+      "Phone": "0667771234",
+      "partyId": [
+        901,
+        802
+      ]
+    },
+    {
+      "id": 3,
+      "inviterId": 200502359,
+      "name": "חיים",
+      "mailAddress": "him@gmail.com",
+      "Phone": "0556677889",
+      "partyId": [
+        902,
+        902
+      ]
+    },
+    {
+      "name": "ttttttttttttt",
+      "Phone": "ttttttttttttt",
+      "inviterId": "ttttttttttttt",
+      "mailAddress": "ttttttttttttt",
+      "id": 4
+    }
+  ],
+  "meat": {
+    "SaladsB": [
+      {
+        "id": 1,
+        "name": "סלט כרוב"
+      },
+      {
+        "id": 2,
+        "name": "סלט גזר"
+      },
+      {
+        "id": 3,
+        "name": "סלט חסה"
+      },
+      {
+        "id": 4,
+        "name": "סלט טחינה"
+      },
+      {
+        "id": 5,
+        "name": "סלט נבטים"
+      }
+    ],
+    "firstCourseB": [
+      {
+        "id": 1,
+        "name": "דג"
+      },
+      {
+        "id": 2,
+        "name": "בורקס פרווה"
+      },
+      {
+        "id": 3,
+        "name": "מעורב ירושלמי"
+      }
+    ],
+    "mainCourseB": [
+      {
+        "id": 1,
+        "name": "עוף"
+      },
+      {
+        "id": 2,
+        "name": "בשר"
+      },
+      {
+        "id": 3,
+        "name": "פרגיות"
+      },
+      {
+        "id": 4,
+        "name": "מוקפץ עוף"
+      }
+    ],
+    "dessertsB": [
+      {
+        "id": 1,
+        "name": "גלידה פרווה"
+      },
+      {
+        "id": 2,
+        "name": "עוגת שוקולד"
+      },
+      {
+        "id": 3,
+        "name": "מקרונים"
+      }
+    ],
+    "drinkingB": [
+      {
+        "id": 1,
+        "name": "שתיה קלה"
+      },
+      {
+        "id": 2,
+        "name": "שתיה חריפה"
+      }
+    ],
+    "addB": [
+      {
+        "id": 1,
+        "name": "אורז"
+      },
+      {
+        "id": 2,
+        "name": "מוקפץ ירקות"
+      },
+      {
+        "id": 3,
+        "name": "תפוחי אדמה אפויים"
+      }
+    ]
+  },
+  "milk": {
+    "SaladsC": [
+      {
+        "id": 1,
+        "name": "סלט בטטה"
+      },
+      {
+        "id": 2,
+        "name": "סלט נישנושים"
+      },
+      {
+        "id": 3,
+        "name": "סלט יוני"
+      },
+      {
+        "id": 4,
+        "name": "גבינות"
+      },
+      {
+        "id": 5,
+        "name": "סלט ירקות"
+      }
+    ],
+    "firstCourseC": [
+      {
+        "id": 1,
+        "name": "מרק אפונה"
+      },
+      {
+        "id": 2,
+        "name": "בורקס חלבי"
+      },
+      {
+        "id": 3,
+        "name": "מרק מוקרם"
+      }
+    ],
+    "mainCourseC": [
+      {
+        "id": 1,
+        "name": "לטקס גבינה"
+      },
+      {
+        "id": 2,
+        "name": "כדורי גבינה"
+      },
+      {
+        "id": 3,
+        "name": "פסטה מוקרמת"
+      }
+    ],
+    "dessertsC": [
+      {
+        "id": 1,
+        "name": "גלידה חלבית"
+      },
+      {
+        "id": 2,
+        "name": "עוגת גבינה"
+      },
+      {
+        "id": 3,
+        "name": "גביניות"
+      }
+    ],
+    "drinkingC": [
+      {
+        "id": 1,
+        "name": "שתיה קלה"
+      },
+      {
+        "id": 2,
+        "name": "שתיה חריפה"
+      },
+      {
+        "id": 3,
+        "name": "שתיה חמה"
+      }
+    ],
+    "addC": [
+      {
+        "id": 1,
+        "name": "פשטידת ברוקולי"
+      },
+      {
+        "id": 2,
+        "name": "פשטידת גבינה"
+      }
+    ]
+  }
+}

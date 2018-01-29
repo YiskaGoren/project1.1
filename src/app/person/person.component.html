@@ -1,0 +1,34 @@
+
+<p dir="rtl">
+<label>
+ שם:
+  <input type="text" [(ngModel)]="newGuest.name" name="name"/>
+</label>
+</p >
+<p dir="rtl">
+    <label>
+    תעודת זהות:
+      <input type="text" [(ngModel)]="newGuest.idperson" name="phon"/>
+    </label>
+    </p >
+<p dir="rtl">
+<label>
+ כתובת מייל:
+  <input type="text" [(ngModel)]="newGuest.mailAdress" name="mailAdress"/>
+</label>
+</p >
+<p dir="rtl">
+<label>
+  טלפון:
+<input  type="text" [(ngModel)]="newGuest.phone" name="phone"/>
+</label>
+<br/>
+<br/>
+<button type="button" (click)="AddGuest()" >המשך</button>
+<label id="success" style="visibility:hidden ">הנתונים נקלטו בהצלחה!!</label>
+</p>
+
+
+
+
+

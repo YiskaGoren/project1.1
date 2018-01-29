@@ -1,0 +1,32 @@
+<h2>פרטי אורח</h2>
+
+<p dir="rtl">
+
+  <label>
+     שם:
+      <input type="text" [(ngModel)]="newInviter.name" name="name"/>
+    </label>
+    </p >
+    <p dir="rtl">
+        <label>
+        תעודת זהות:
+          <input type="text" [(ngModel)]="newInviter.idperson" name="phon"/>
+        </label>
+        </p >
+    <p dir="rtl">
+    <label>
+     כתובת מייל:
+      <input type="text" [(ngModel)]="newInviter.mailAdress" name="mailAdress"/>
+    </label>
+    </p >
+    <p dir="rtl">
+    <label>
+      טלפון:
+    <input  type="text" [(ngModel)]="newInviter.phone" name="phone"/>
+    </label>
+    <br/>
+    <br/>
+    <button type="button" (click)="AddInviter()" >המשך</button>
+    <label id="success" style="visibility:hidden ">הנתונים נקלטו בהצלחה!!</label>
+    </p>
+    
